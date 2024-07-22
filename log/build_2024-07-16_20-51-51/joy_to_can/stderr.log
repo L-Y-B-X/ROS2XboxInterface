@@ -1,0 +1,18 @@
+CMake Error at CMakeLists.txt:22 (find_package):
+  By not providing "Findcanopen.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "canopen", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "canopen" with any
+  of the following names:
+
+    canopenConfig.cmake
+    canopen-config.cmake
+
+  Add the installation prefix of "canopen" to CMAKE_PREFIX_PATH or set
+  "canopen_DIR" to a directory containing one of the above files.  If
+  "canopen" provides a separate development package or SDK, be sure it has
+  been installed.
+
+
+make: *** [Makefile:266: cmake_check_build_system] Error 1

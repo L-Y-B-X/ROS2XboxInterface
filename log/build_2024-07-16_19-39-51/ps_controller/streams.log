@@ -1,0 +1,46 @@
+[0.017s] Invoking command in '/home/lyb/Desktop/dev_ws/build/ps_controller': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/lyb/Desktop/dev_ws/build/ps_controller -- -j8 -l8
+[0.051s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.071s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.202s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.284s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.297s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.419s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.448s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.545s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.620s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.625s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.628s] -- Looking for pthread.h
+[0.732s] -- Looking for pthread.h - found
+[0.733s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.820s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.820s] -- Looking for pthread_create in pthreads
+[0.909s] -- Looking for pthread_create in pthreads - not found
+[0.910s] -- Looking for pthread_create in pthread
+[0.993s] -- Looking for pthread_create in pthread - found
+[0.994s] -- Found Threads: TRUE  
+[1.168s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.201s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.259s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[1.273s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.331s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.332s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.332s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/lyb/Desktop/dev_ws/src/ps_controller/include>
+[1.333s] -- Configured cppcheck exclude dirs and/or files: 
+[1.333s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.334s] -- Configured cpplint exclude dirs and/or files: 
+[1.334s] -- Added test 'lint_cmake' to check CMake code style
+[1.335s] -- Added test 'uncrustify' to check C / C++ code style
+[1.335s] -- Configured uncrustify additional arguments: 
+[1.335s] -- Added test 'xmllint' to check XML markup files
+[1.339s] -- Configuring done
+[1.347s] -- Generating done
+[1.351s] -- Build files have been written to: /home/lyb/Desktop/dev_ws/build/ps_controller
+[1.398s] [ 50%] [32mBuilding CXX object CMakeFiles/joy_control.dir/src/joy_control.cpp.o[0m
+[1.408s] [01m[K/home/lyb/Desktop/dev_ws/src/ps_controller/src/joy_control.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[1.408s]     1 | #include [01;31m[K<rclcpp/rclcpp.hpp>[m[K
+[1.408s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.409s] compilation terminated.
+[1.409s] make[2]: *** [CMakeFiles/joy_control.dir/build.make:63: CMakeFiles/joy_control.dir/src/joy_control.cpp.o] Error 1
+[1.410s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/joy_control.dir/all] Error 2
+[1.410s] make: *** [Makefile:141: all] Error 2
+[1.414s] Invoked command in '/home/lyb/Desktop/dev_ws/build/ps_controller' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/lyb/Desktop/dev_ws/build/ps_controller -- -j8 -l8

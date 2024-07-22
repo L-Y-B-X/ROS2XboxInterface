@@ -1,0 +1,10 @@
+/home/lyb/Desktop/dev_ws/build/ps_controller/CMakeFiles/install/strip.dir
+/home/lyb/Desktop/dev_ws/build/ps_controller/CMakeFiles/install.dir
+/home/lyb/Desktop/dev_ws/build/ps_controller/CMakeFiles/list_install_components.dir
+/home/lyb/Desktop/dev_ws/build/ps_controller/CMakeFiles/rebuild_cache.dir
+/home/lyb/Desktop/dev_ws/build/ps_controller/CMakeFiles/edit_cache.dir
+/home/lyb/Desktop/dev_ws/build/ps_controller/CMakeFiles/test.dir
+/home/lyb/Desktop/dev_ws/build/ps_controller/CMakeFiles/joy_control.dir
+/home/lyb/Desktop/dev_ws/build/ps_controller/CMakeFiles/install/local.dir
+/home/lyb/Desktop/dev_ws/build/ps_controller/CMakeFiles/ps_controller_uninstall.dir
+/home/lyb/Desktop/dev_ws/build/ps_controller/CMakeFiles/uninstall.dir

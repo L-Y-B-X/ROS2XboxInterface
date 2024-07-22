@@ -1,0 +1,105 @@
+[0.000000] (-) TimerEvent: {}
+[0.001241] (-) JobUnselected: {'identifier': 'ps_controller'}
+[0.001299] (joy_to_can) JobQueued: {'identifier': 'joy_to_can', 'dependencies': OrderedDict()}
+[0.001348] (joy_to_can) JobStarted: {'identifier': 'joy_to_can'}
+[0.010998] (joy_to_can) JobProgress: {'identifier': 'joy_to_can', 'progress': 'cmake'}
+[0.013478] (joy_to_can) JobProgress: {'identifier': 'joy_to_can', 'progress': 'build'}
+[0.013582] (joy_to_can) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lyb/Desktop/dev_ws/build/joy_to_can', '--', '-j8', '-l8'], 'cwd': '/home/lyb/Desktop/dev_ws/build/joy_to_can', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lyb'), ('SSH_AGENT_PID', '1576'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/lyb'), ('OLDPWD', '/home/lyb/Desktop/dev_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1478'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=92aa183664e327b5b0553f8a669726d9'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'lyb'), ('JOURNAL_STREAM', '8:54932'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lyb'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1611,unix/ubuntu:/tmp/.ICE-unix/1611'), ('INVOCATION_ID', 'e86d27dabc86472aa488ac24fbdfa032'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d80fc5d0_0a2e_4080_aab2_f6f1044661e1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.244'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lyb/Desktop/dev_ws/build/joy_to_can'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=92aa183664e327b5b0553f8a669726d9'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.049421] (joy_to_can) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.069538] (joy_to_can) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099866] (-) TimerEvent: {}
+[0.200526] (-) TimerEvent: {}
+[0.204562] (joy_to_can) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.227361] (joy_to_can) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.232414] (joy_to_can) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.301176] (-) TimerEvent: {}
+[0.327851] (joy_to_can) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.366737] (joy_to_can) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.367589] (joy_to_can) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.401785] (-) TimerEvent: {}
+[0.468470] (joy_to_can) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[0.502287] (-) TimerEvent: {}
+[0.549542] (joy_to_can) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.599225] (joy_to_can) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.600307] (joy_to_can) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.600652] (joy_to_can) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.600903] (joy_to_can) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.601897] (joy_to_can) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.602057] (joy_to_can) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.602203] (joy_to_can) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.602332] (-) TimerEvent: {}
+[0.602848] (joy_to_can) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.602982] (joy_to_can) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.603465] (joy_to_can) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.606726] (joy_to_can) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.616001] (joy_to_can) StdoutLine: {'line': b'-- Generating done\n'}
+[0.618358] (joy_to_can) StdoutLine: {'line': b'-- Build files have been written to: /home/lyb/Desktop/dev_ws/build/joy_to_can\n'}
+[0.650117] (joy_to_can) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target joy_to_can_node\x1b[0m\n'}
+[0.688979] (joy_to_can) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/joy_to_can_node.dir/src/joy_to_can_node.cpp.o\x1b[0m\n'}
+[0.702941] (-) TimerEvent: {}
+[0.803751] (-) TimerEvent: {}
+[0.904257] (-) TimerEvent: {}
+[1.004988] (-) TimerEvent: {}
+[1.105739] (-) TimerEvent: {}
+[1.206567] (-) TimerEvent: {}
+[1.307138] (-) TimerEvent: {}
+[1.408007] (-) TimerEvent: {}
+[1.508541] (-) TimerEvent: {}
+[1.609220] (-) TimerEvent: {}
+[1.710173] (-) TimerEvent: {}
+[1.811088] (-) TimerEvent: {}
+[1.911877] (-) TimerEvent: {}
+[2.012836] (-) TimerEvent: {}
+[2.113680] (-) TimerEvent: {}
+[2.214525] (-) TimerEvent: {}
+[2.315161] (-) TimerEvent: {}
+[2.415952] (-) TimerEvent: {}
+[2.516802] (-) TimerEvent: {}
+[2.617749] (-) TimerEvent: {}
+[2.718503] (-) TimerEvent: {}
+[2.819023] (-) TimerEvent: {}
+[2.919937] (-) TimerEvent: {}
+[3.020850] (-) TimerEvent: {}
+[3.121630] (-) TimerEvent: {}
+[3.222328] (-) TimerEvent: {}
+[3.323093] (-) TimerEvent: {}
+[3.424029] (-) TimerEvent: {}
+[3.524652] (-) TimerEvent: {}
+[3.625706] (-) TimerEvent: {}
+[3.726820] (-) TimerEvent: {}
+[3.827775] (-) TimerEvent: {}
+[3.928721] (-) TimerEvent: {}
+[4.029669] (-) TimerEvent: {}
+[4.130421] (-) TimerEvent: {}
+[4.231448] (-) TimerEvent: {}
+[4.332352] (-) TimerEvent: {}
+[4.384263] (joy_to_can) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable joy_to_can_node\x1b[0m\n'}
+[4.432942] (-) TimerEvent: {}
+[4.534764] (-) TimerEvent: {}
+[4.603544] (joy_to_can) StdoutLine: {'line': b'[100%] Built target joy_to_can_node\n'}
+[4.618694] (joy_to_can) CommandEnded: {'returncode': 0}
+[4.634964] (-) TimerEvent: {}
+[4.658044] (joy_to_can) JobProgress: {'identifier': 'joy_to_can', 'progress': 'install'}
+[4.673013] (joy_to_can) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lyb/Desktop/dev_ws/build/joy_to_can'], 'cwd': '/home/lyb/Desktop/dev_ws/build/joy_to_can', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lyb'), ('SSH_AGENT_PID', '1576'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/lyb'), ('OLDPWD', '/home/lyb/Desktop/dev_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1478'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=92aa183664e327b5b0553f8a669726d9'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'lyb'), ('JOURNAL_STREAM', '8:54932'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lyb'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1611,unix/ubuntu:/tmp/.ICE-unix/1611'), ('INVOCATION_ID', 'e86d27dabc86472aa488ac24fbdfa032'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d80fc5d0_0a2e_4080_aab2_f6f1044661e1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.244'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lyb/Desktop/dev_ws/build/joy_to_can'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=92aa183664e327b5b0553f8a669726d9'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[4.683141] (joy_to_can) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.683719] (joy_to_can) StdoutLine: {'line': b'-- Installing: /home/lyb/Desktop/dev_ws/install/joy_to_can/lib/joy_to_can/joy_to_can_node\n'}
+[4.685834] (joy_to_can) StdoutLine: {'line': b'-- Set runtime path of "/home/lyb/Desktop/dev_ws/install/joy_to_can/lib/joy_to_can/joy_to_can_node" to ""\n'}
+[4.686165] (joy_to_can) StdoutLine: {'line': b'-- Installing: /home/lyb/Desktop/dev_ws/install/joy_to_can/share/ament_index/resource_index/package_run_dependencies/joy_to_can\n'}
+[4.686735] (joy_to_can) StdoutLine: {'line': b'-- Installing: /home/lyb/Desktop/dev_ws/install/joy_to_can/share/ament_index/resource_index/parent_prefix_path/joy_to_can\n'}
+[4.687102] (joy_to_can) StdoutLine: {'line': b'-- Installing: /home/lyb/Desktop/dev_ws/install/joy_to_can/share/joy_to_can/environment/ament_prefix_path.sh\n'}
+[4.687415] (joy_to_can) StdoutLine: {'line': b'-- Installing: /home/lyb/Desktop/dev_ws/install/joy_to_can/share/joy_to_can/environment/ament_prefix_path.dsv\n'}
+[4.687903] (joy_to_can) StdoutLine: {'line': b'-- Installing: /home/lyb/Desktop/dev_ws/install/joy_to_can/share/joy_to_can/environment/path.sh\n'}
+[4.688333] (joy_to_can) StdoutLine: {'line': b'-- Installing: /home/lyb/Desktop/dev_ws/install/joy_to_can/share/joy_to_can/environment/path.dsv\n'}
+[4.688902] (joy_to_can) StdoutLine: {'line': b'-- Installing: /home/lyb/Desktop/dev_ws/install/joy_to_can/share/joy_to_can/local_setup.bash\n'}
+[4.689204] (joy_to_can) StdoutLine: {'line': b'-- Installing: /home/lyb/Desktop/dev_ws/install/joy_to_can/share/joy_to_can/local_setup.sh\n'}
+[4.689475] (joy_to_can) StdoutLine: {'line': b'-- Installing: /home/lyb/Desktop/dev_ws/install/joy_to_can/share/joy_to_can/local_setup.zsh\n'}
+[4.689651] (joy_to_can) StdoutLine: {'line': b'-- Installing: /home/lyb/Desktop/dev_ws/install/joy_to_can/share/joy_to_can/local_setup.dsv\n'}
+[4.690073] (joy_to_can) StdoutLine: {'line': b'-- Installing: /home/lyb/Desktop/dev_ws/install/joy_to_can/share/joy_to_can/package.dsv\n'}
+[4.690543] (joy_to_can) StdoutLine: {'line': b'-- Installing: /home/lyb/Desktop/dev_ws/install/joy_to_can/share/ament_index/resource_index/packages/joy_to_can\n'}
+[4.690920] (joy_to_can) StdoutLine: {'line': b'-- Installing: /home/lyb/Desktop/dev_ws/install/joy_to_can/share/joy_to_can/cmake/joy_to_canConfig.cmake\n'}
+[4.691095] (joy_to_can) StdoutLine: {'line': b'-- Installing: /home/lyb/Desktop/dev_ws/install/joy_to_can/share/joy_to_can/cmake/joy_to_canConfig-version.cmake\n'}
+[4.691163] (joy_to_can) StdoutLine: {'line': b'-- Installing: /home/lyb/Desktop/dev_ws/install/joy_to_can/share/joy_to_can/package.xml\n'}
+[4.695000] (joy_to_can) CommandEnded: {'returncode': 0}
+[4.735209] (-) TimerEvent: {}
+[4.755185] (joy_to_can) JobEnded: {'identifier': 'joy_to_can', 'rc': 0}
+[4.757122] (-) EventReactorShutdown: {}

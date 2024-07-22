@@ -1,0 +1,32 @@
+[0.018s] Invoking command in '/home/lyb/Desktop/dev_ws/build/ps_controller': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/lyb/Desktop/dev_ws/build/ps_controller -- -j8 -l8
+[0.048s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.070s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.196s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.220s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.222s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.311s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.346s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.347s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.440s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.466s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.514s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[0.520s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.570s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.571s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/lyb/Desktop/dev_ws/src/ps_controller/include>
+[0.571s] -- Configured cppcheck exclude dirs and/or files: 
+[0.571s] -- Added test 'lint_cmake' to check CMake code style
+[0.572s] -- Added test 'uncrustify' to check C / C++ code style
+[0.572s] -- Configured uncrustify additional arguments: 
+[0.572s] -- Added test 'xmllint' to check XML markup files
+[0.575s] -- Configuring done
+[0.582s] -- Generating done
+[0.585s] -- Build files have been written to: /home/lyb/Desktop/dev_ws/build/ps_controller
+[0.624s] [ 50%] [32mBuilding CXX object CMakeFiles/joy_control.dir/src/joy_control.cpp.o[0m
+[0.634s] [01m[K/home/lyb/Desktop/dev_ws/src/ps_controller/src/joy_control.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[0.635s]     1 | #include [01;31m[K<rclcpp/rclcpp.hpp>[m[K
+[0.635s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.635s] compilation terminated.
+[0.636s] make[2]: *** [CMakeFiles/joy_control.dir/build.make:63: CMakeFiles/joy_control.dir/src/joy_control.cpp.o] Error 1
+[0.636s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/joy_control.dir/all] Error 2
+[0.637s] make: *** [Makefile:141: all] Error 2
+[0.640s] Invoked command in '/home/lyb/Desktop/dev_ws/build/ps_controller' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/lyb/Desktop/dev_ws/build/ps_controller -- -j8 -l8

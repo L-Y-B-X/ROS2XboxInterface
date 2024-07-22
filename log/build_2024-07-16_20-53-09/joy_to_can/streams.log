@@ -1,0 +1,32 @@
+[0.015s] Invoking command in '/home/lyb/Desktop/dev_ws/build/joy_to_can': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/lyb/Desktop/dev_ws/build/joy_to_can -- -j8 -l8
+[0.050s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.073s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.194s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.220s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.223s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.318s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.352s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.353s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.445s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.523s] CMake Error at CMakeLists.txt:22 (find_package):
+[0.523s]   By not providing "Findcanopen.cmake" in CMAKE_MODULE_PATH this project has
+[0.523s]   asked CMake to find a package configuration file provided by "canopen", but
+[0.523s]   CMake did not find one.
+[0.523s] 
+[0.523s]   Could not find a package configuration file provided by "canopen" with any
+[0.523s]   of the following names:
+[0.524s] 
+[0.524s]     canopenConfig.cmake
+[0.524s]     canopen-config.cmake
+[0.524s] 
+[0.524s]   Add the installation prefix of "canopen" to CMAKE_PREFIX_PATH or set
+[0.524s]   "canopen_DIR" to a directory containing one of the above files.  If
+[0.524s]   "canopen" provides a separate development package or SDK, be sure it has
+[0.524s]   been installed.
+[0.524s] 
+[0.524s] 
+[0.525s] -- Configuring incomplete, errors occurred!
+[0.525s] See also "/home/lyb/Desktop/dev_ws/build/joy_to_can/CMakeFiles/CMakeOutput.log".
+[0.525s] See also "/home/lyb/Desktop/dev_ws/build/joy_to_can/CMakeFiles/CMakeError.log".
+[0.531s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[0.534s] Invoked command in '/home/lyb/Desktop/dev_ws/build/joy_to_can' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/lyb/Desktop/dev_ws/build/joy_to_can -- -j8 -l8

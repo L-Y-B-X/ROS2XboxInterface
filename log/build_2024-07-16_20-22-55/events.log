@@ -1,0 +1,103 @@
+[0.000000] (-) TimerEvent: {}
+[0.000405] (ps_controller) JobQueued: {'identifier': 'ps_controller', 'dependencies': OrderedDict()}
+[0.000957] (ps_controller) JobStarted: {'identifier': 'ps_controller'}
+[0.010386] (ps_controller) JobProgress: {'identifier': 'ps_controller', 'progress': 'cmake'}
+[0.011497] (ps_controller) JobProgress: {'identifier': 'ps_controller', 'progress': 'build'}
+[0.012263] (ps_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lyb/Desktop/dev_ws/build/ps_controller', '--', '-j8', '-l8'], 'cwd': '/home/lyb/Desktop/dev_ws/build/ps_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lyb'), ('SSH_AGENT_PID', '1576'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/lyb'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1478'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=92aa183664e327b5b0553f8a669726d9'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/lyb/Desktop/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'lyb'), ('JOURNAL_STREAM', '8:54932'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lyb'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1611,unix/ubuntu:/tmp/.ICE-unix/1611'), ('INVOCATION_ID', 'e86d27dabc86472aa488ac24fbdfa032'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/17e87679_deee_449f_a8bc_e349dad2305a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.209'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lyb/Desktop/dev_ws/build/ps_controller'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=92aa183664e327b5b0553f8a669726d9'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.044024] (ps_controller) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.068904] (ps_controller) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.100098] (-) TimerEvent: {}
+[0.179341] (ps_controller) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.185522] (ps_controller) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.200698] (-) TimerEvent: {}
+[0.206752] (ps_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.209051] (ps_controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.296769] (ps_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.300764] (-) TimerEvent: {}
+[0.328193] (ps_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.329546] (ps_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.401194] (-) TimerEvent: {}
+[0.421206] (ps_controller) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[0.444550] (ps_controller) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[0.495037] (ps_controller) StdoutLine: {'line': b'-- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)\n'}
+[0.501893] (-) TimerEvent: {}
+[0.502449] (ps_controller) StdoutLine: {'line': b'-- Found rclcpp_components: 2.4.3 (/opt/ros/foxy/share/rclcpp_components/cmake)\n'}
+[0.539647] (ps_controller) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.594111] (ps_controller) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.594411] (ps_controller) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/lyb/Desktop/dev_ws/src/ps_controller/include>\n'}
+[0.594621] (ps_controller) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.594829] (ps_controller) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.595685] (ps_controller) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.595802] (ps_controller) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.596129] (ps_controller) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.599576] (ps_controller) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.602174] (-) TimerEvent: {}
+[0.612970] (ps_controller) StdoutLine: {'line': b'-- Generating done\n'}
+[0.615658] (ps_controller) StdoutLine: {'line': b'-- Build files have been written to: /home/lyb/Desktop/dev_ws/build/ps_controller\n'}
+[0.642239] (ps_controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target joy_control\x1b[0m\n'}
+[0.658330] (ps_controller) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/joy_control.dir/src/joy_control.cpp.o\x1b[0m\n'}
+[0.702512] (-) TimerEvent: {}
+[0.803160] (-) TimerEvent: {}
+[0.904005] (-) TimerEvent: {}
+[1.004859] (-) TimerEvent: {}
+[1.106163] (-) TimerEvent: {}
+[1.206812] (-) TimerEvent: {}
+[1.307490] (-) TimerEvent: {}
+[1.408289] (-) TimerEvent: {}
+[1.509038] (-) TimerEvent: {}
+[1.609553] (-) TimerEvent: {}
+[1.710051] (-) TimerEvent: {}
+[1.810933] (-) TimerEvent: {}
+[1.911978] (-) TimerEvent: {}
+[2.012874] (-) TimerEvent: {}
+[2.113973] (-) TimerEvent: {}
+[2.214910] (-) TimerEvent: {}
+[2.315898] (-) TimerEvent: {}
+[2.416626] (-) TimerEvent: {}
+[2.517614] (-) TimerEvent: {}
+[2.618444] (-) TimerEvent: {}
+[2.719385] (-) TimerEvent: {}
+[2.820371] (-) TimerEvent: {}
+[2.921106] (-) TimerEvent: {}
+[3.022916] (-) TimerEvent: {}
+[3.123560] (-) TimerEvent: {}
+[3.224414] (-) TimerEvent: {}
+[3.325105] (-) TimerEvent: {}
+[3.425751] (-) TimerEvent: {}
+[3.526601] (-) TimerEvent: {}
+[3.627278] (-) TimerEvent: {}
+[3.728267] (-) TimerEvent: {}
+[3.828924] (-) TimerEvent: {}
+[3.929576] (-) TimerEvent: {}
+[4.030573] (-) TimerEvent: {}
+[4.131362] (-) TimerEvent: {}
+[4.233080] (-) TimerEvent: {}
+[4.333748] (-) TimerEvent: {}
+[4.434629] (-) TimerEvent: {}
+[4.535412] (-) TimerEvent: {}
+[4.636408] (-) TimerEvent: {}
+[4.737198] (-) TimerEvent: {}
+[4.838061] (-) TimerEvent: {}
+[4.938982] (-) TimerEvent: {}
+[5.040096] (-) TimerEvent: {}
+[5.140680] (-) TimerEvent: {}
+[5.241283] (-) TimerEvent: {}
+[5.341912] (-) TimerEvent: {}
+[5.442530] (-) TimerEvent: {}
+[5.543289] (-) TimerEvent: {}
+[5.643853] (-) TimerEvent: {}
+[5.745215] (-) TimerEvent: {}
+[5.846064] (-) TimerEvent: {}
+[5.860704] (ps_controller) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable joy_control\x1b[0m\n'}
+[5.946670] (-) TimerEvent: {}
+[6.047758] (-) TimerEvent: {}
+[6.133190] (ps_controller) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/joy_control.dir/src/joy_control.cpp.o: in function `rclcpp::Client<std_srvs::srv::Empty>::Client(rclcpp::node_interfaces::NodeBaseInterface*, std::shared_ptr<rclcpp::node_interfaces::NodeGraphInterface>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rcl_client_options_t&)':\n"}
+[6.133536] (ps_controller) StderrLine: {'line': b"joy_control.cpp:(.text._ZN6rclcpp6ClientIN8std_srvs3srv5EmptyEEC2EPNS_15node_interfaces17NodeBaseInterfaceESt10shared_ptrINS5_18NodeGraphInterfaceEERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEER20rcl_client_options_t[_ZN6rclcpp6ClientIN8std_srvs3srv5EmptyEEC5EPNS_15node_interfaces17NodeBaseInterfaceESt10shared_ptrINS5_18NodeGraphInterfaceEERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEER20rcl_client_options_t]+0xc4): undefined reference to `rosidl_service_type_support_t const* rosidl_typesupport_cpp::get_service_type_support_handle<std_srvs::srv::Empty>()'\n"}
+[6.133721] (ps_controller) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[6.135474] (ps_controller) StderrLine: {'line': b'make[2]: *** [CMakeFiles/joy_control.dir/build.make:150: joy_control] Error 1\n'}
+[6.135923] (ps_controller) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/joy_control.dir/all] Error 2\n'}
+[6.136170] (ps_controller) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[6.140855] (ps_controller) CommandEnded: {'returncode': 2}
+[6.148035] (-) TimerEvent: {}
+[6.182153] (ps_controller) JobEnded: {'identifier': 'ps_controller', 'rc': 2}
+[6.192968] (-) EventReactorShutdown: {}

@@ -1,0 +1,4 @@
+source;share/ps_controller/local_setup.bash
+source;share/ps_controller/local_setup.dsv
+source;share/ps_controller/local_setup.sh
+source;share/ps_controller/local_setup.zsh

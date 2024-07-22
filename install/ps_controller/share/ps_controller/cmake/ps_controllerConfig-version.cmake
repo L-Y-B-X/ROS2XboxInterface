@@ -1,0 +1,1 @@
+/home/lyb/Desktop/dev_ws/build/ps_controller/ament_cmake_core/ps_controllerConfig-version.cmake

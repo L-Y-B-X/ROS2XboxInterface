@@ -1,0 +1,16 @@
+/home/lyb/Desktop/dev_ws/install/ps_controller/lib/ps_controller/joy_control
+/home/lyb/Desktop/dev_ws/install/ps_controller/share/ament_index/resource_index/package_run_dependencies/ps_controller
+/home/lyb/Desktop/dev_ws/install/ps_controller/share/ament_index/resource_index/parent_prefix_path/ps_controller
+/home/lyb/Desktop/dev_ws/install/ps_controller/share/ps_controller/environment/ament_prefix_path.sh
+/home/lyb/Desktop/dev_ws/install/ps_controller/share/ps_controller/environment/ament_prefix_path.dsv
+/home/lyb/Desktop/dev_ws/install/ps_controller/share/ps_controller/environment/path.sh
+/home/lyb/Desktop/dev_ws/install/ps_controller/share/ps_controller/environment/path.dsv
+/home/lyb/Desktop/dev_ws/install/ps_controller/share/ps_controller/local_setup.bash
+/home/lyb/Desktop/dev_ws/install/ps_controller/share/ps_controller/local_setup.sh
+/home/lyb/Desktop/dev_ws/install/ps_controller/share/ps_controller/local_setup.zsh
+/home/lyb/Desktop/dev_ws/install/ps_controller/share/ps_controller/local_setup.dsv
+/home/lyb/Desktop/dev_ws/install/ps_controller/share/ps_controller/package.dsv
+/home/lyb/Desktop/dev_ws/install/ps_controller/share/ament_index/resource_index/packages/ps_controller
+/home/lyb/Desktop/dev_ws/install/ps_controller/share/ps_controller/cmake/ps_controllerConfig.cmake
+/home/lyb/Desktop/dev_ws/install/ps_controller/share/ps_controller/cmake/ps_controllerConfig-version.cmake
+/home/lyb/Desktop/dev_ws/install/ps_controller/share/ps_controller/package.xml

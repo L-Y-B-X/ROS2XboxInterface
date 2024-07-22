@@ -1,0 +1,4 @@
+Invoking command in '/home/lyb/Desktop/dev_ws/build/joy_to_can': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/lyb/Desktop/dev_ws/src/joy_to_can -DCMAKE_INSTALL_PREFIX=/home/lyb/Desktop/dev_ws/install/joy_to_can
+Invoked command in '/home/lyb/Desktop/dev_ws/build/joy_to_can' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/lyb/Desktop/dev_ws/src/joy_to_can -DCMAKE_INSTALL_PREFIX=/home/lyb/Desktop/dev_ws/install/joy_to_can
+Invoking command in '/home/lyb/Desktop/dev_ws/build/joy_to_can': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/lyb/Desktop/dev_ws/build/joy_to_can -- -j8 -l8
+Invoked command in '/home/lyb/Desktop/dev_ws/build/joy_to_can' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/lyb/Desktop/dev_ws/build/joy_to_can -- -j8 -l8

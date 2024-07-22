@@ -1,0 +1,4 @@
+source;share/joy_to_can/local_setup.bash
+source;share/joy_to_can/local_setup.dsv
+source;share/joy_to_can/local_setup.sh
+source;share/joy_to_can/local_setup.zsh

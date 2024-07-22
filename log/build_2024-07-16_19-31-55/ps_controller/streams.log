@@ -1,0 +1,44 @@
+[0.023s] Invoking command in '/home/lyb/Desktop/dev_ws/build/ps_controller': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/lyb/Desktop/dev_ws/src/ps_controller -DCMAKE_INSTALL_PREFIX=/home/lyb/Desktop/dev_ws/install/ps_controller
+[0.279s] -- The C compiler identification is GNU 9.4.0
+[0.443s] -- The CXX compiler identification is GNU 9.4.0
+[0.457s] -- Check for working C compiler: /usr/bin/cc
+[0.588s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.593s] -- Detecting C compiler ABI info
+[0.699s] -- Detecting C compiler ABI info - done
+[0.707s] -- Detecting C compile features
+[0.708s] -- Detecting C compile features - done
+[0.714s] -- Check for working CXX compiler: /usr/bin/c++
+[0.831s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.832s] -- Detecting CXX compiler ABI info
+[0.946s] -- Detecting CXX compiler ABI info - done
+[0.953s] -- Detecting CXX compile features
+[0.954s] -- Detecting CXX compile features - done
+[0.974s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.002s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.003s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.253s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.352s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.354s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.355s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/lyb/Desktop/dev_ws/src/ps_controller/include>
+[1.355s] -- Configured cppcheck exclude dirs and/or files: 
+[1.357s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.357s] -- Configured cpplint exclude dirs and/or files: 
+[1.358s] -- Added test 'lint_cmake' to check CMake code style
+[1.360s] -- Added test 'uncrustify' to check C / C++ code style
+[1.360s] -- Configured uncrustify additional arguments: 
+[1.361s] -- Added test 'xmllint' to check XML markup files
+[1.365s] -- Configuring done
+[1.371s] -- Generating done
+[1.374s] -- Build files have been written to: /home/lyb/Desktop/dev_ws/build/ps_controller
+[1.382s] Invoked command in '/home/lyb/Desktop/dev_ws/build/ps_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/lyb/Desktop/dev_ws/src/ps_controller -DCMAKE_INSTALL_PREFIX=/home/lyb/Desktop/dev_ws/install/ps_controller
+[1.383s] Invoking command in '/home/lyb/Desktop/dev_ws/build/ps_controller': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/lyb/Desktop/dev_ws/build/ps_controller -- -j8 -l8
+[1.432s] [35m[1mScanning dependencies of target joy_control[0m
+[1.451s] [ 50%] [32mBuilding CXX object CMakeFiles/joy_control.dir/src/joy_control.cpp.o[0m
+[1.460s] [01m[K/home/lyb/Desktop/dev_ws/src/ps_controller/src/joy_control.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[1.461s]     1 | #include [01;31m[K<rclcpp/rclcpp.hpp>[m[K
+[1.461s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.461s] compilation terminated.
+[1.462s] make[2]: *** [CMakeFiles/joy_control.dir/build.make:63: CMakeFiles/joy_control.dir/src/joy_control.cpp.o] Error 1
+[1.462s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/joy_control.dir/all] Error 2
+[1.462s] make: *** [Makefile:141: all] Error 2
+[1.465s] Invoked command in '/home/lyb/Desktop/dev_ws/build/ps_controller' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/lyb/Desktop/dev_ws/build/ps_controller -- -j8 -l8

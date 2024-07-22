@@ -1,0 +1,4 @@
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:[m[K In member function ‘[01m[Kvoid JoyToCANNode::enableMotor(uint8_t, uint8_t)[m[K’:
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:87:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kextended_id[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   87 |     uint32_t [01;35m[Kextended_id[m[K = (3 << 24) | (master_id << 8) | motor_id; // Assuming mode 3 for example
+      |              [01;35m[K^~~~~~~~~~~[m[K

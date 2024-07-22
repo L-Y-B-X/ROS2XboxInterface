@@ -1,0 +1,8 @@
+[35m[1mScanning dependencies of target joy_to_can_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/joy_to_can_node.dir/src/joy_to_can_node.cpp.o[0m
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:66:6:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KJoyToCANNode::[m[K’ on member ‘[01m[KenableMotor[m[K’ [[01;31m[K-fpermissive[m[K]
+   66 | void [01;31m[KJoyToCANNode[m[K::enableMotor(uint8_t motor_id) {
+      |      [01;31m[K^~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/joy_to_can_node.dir/build.make:63: CMakeFiles/joy_to_can_node.dir/src/joy_to_can_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/joy_to_can_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

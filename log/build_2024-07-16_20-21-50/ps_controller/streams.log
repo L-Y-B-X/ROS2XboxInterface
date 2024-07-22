@@ -1,0 +1,25 @@
+[0.020s] Invoking command in '/home/lyb/Desktop/dev_ws/build/ps_controller': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/lyb/Desktop/dev_ws/build/ps_controller -- -j8 -l8
+[0.060s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.079s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.202s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.208s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.230s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.232s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.328s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.363s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.363s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.453s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.474s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.517s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[0.523s] CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.523s]   ament_target_dependencies() the passed package name 'rclcpp_components' was
+[0.523s]   not found before
+[0.523s] Call Stack (most recent call first):
+[0.523s]   CMakeLists.txt:38 (ament_target_dependencies)
+[0.524s] 
+[0.524s] 
+[0.524s] -- Configuring incomplete, errors occurred!
+[0.525s] See also "/home/lyb/Desktop/dev_ws/build/ps_controller/CMakeFiles/CMakeOutput.log".
+[0.525s] See also "/home/lyb/Desktop/dev_ws/build/ps_controller/CMakeFiles/CMakeError.log".
+[0.530s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[0.534s] Invoked command in '/home/lyb/Desktop/dev_ws/build/ps_controller' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/lyb/Desktop/dev_ws/build/ps_controller -- -j8 -l8

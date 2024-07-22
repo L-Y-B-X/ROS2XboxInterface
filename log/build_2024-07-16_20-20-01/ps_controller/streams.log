@@ -1,0 +1,24 @@
+[0.016s] Invoking command in '/home/lyb/Desktop/dev_ws/build/ps_controller': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/lyb/Desktop/dev_ws/build/ps_controller -- -j8 -l8
+[0.043s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.065s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.188s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.196s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.217s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.219s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.314s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.348s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.348s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.437s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.459s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.501s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[0.507s] CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+[0.507s]   ament_target_dependencies() the first argument must be a valid target name
+[0.507s] Call Stack (most recent call first):
+[0.507s]   CMakeLists.txt:38 (ament_target_dependencies)
+[0.507s] 
+[0.508s] 
+[0.508s] -- Configuring incomplete, errors occurred!
+[0.509s] See also "/home/lyb/Desktop/dev_ws/build/ps_controller/CMakeFiles/CMakeOutput.log".
+[0.509s] See also "/home/lyb/Desktop/dev_ws/build/ps_controller/CMakeFiles/CMakeError.log".
+[0.514s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[0.516s] Invoked command in '/home/lyb/Desktop/dev_ws/build/ps_controller' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/lyb/Desktop/dev_ws/build/ps_controller -- -j8 -l8

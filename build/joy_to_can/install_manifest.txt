@@ -1,0 +1,16 @@
+/home/lyb/Desktop/dev_ws/install/joy_to_can/lib/joy_to_can/joy_to_can_node
+/home/lyb/Desktop/dev_ws/install/joy_to_can/share/ament_index/resource_index/package_run_dependencies/joy_to_can
+/home/lyb/Desktop/dev_ws/install/joy_to_can/share/ament_index/resource_index/parent_prefix_path/joy_to_can
+/home/lyb/Desktop/dev_ws/install/joy_to_can/share/joy_to_can/environment/ament_prefix_path.sh
+/home/lyb/Desktop/dev_ws/install/joy_to_can/share/joy_to_can/environment/ament_prefix_path.dsv
+/home/lyb/Desktop/dev_ws/install/joy_to_can/share/joy_to_can/environment/path.sh
+/home/lyb/Desktop/dev_ws/install/joy_to_can/share/joy_to_can/environment/path.dsv
+/home/lyb/Desktop/dev_ws/install/joy_to_can/share/joy_to_can/local_setup.bash
+/home/lyb/Desktop/dev_ws/install/joy_to_can/share/joy_to_can/local_setup.sh
+/home/lyb/Desktop/dev_ws/install/joy_to_can/share/joy_to_can/local_setup.zsh
+/home/lyb/Desktop/dev_ws/install/joy_to_can/share/joy_to_can/local_setup.dsv
+/home/lyb/Desktop/dev_ws/install/joy_to_can/share/joy_to_can/package.dsv
+/home/lyb/Desktop/dev_ws/install/joy_to_can/share/ament_index/resource_index/packages/joy_to_can
+/home/lyb/Desktop/dev_ws/install/joy_to_can/share/joy_to_can/cmake/joy_to_canConfig.cmake
+/home/lyb/Desktop/dev_ws/install/joy_to_can/share/joy_to_can/cmake/joy_to_canConfig-version.cmake
+/home/lyb/Desktop/dev_ws/install/joy_to_can/share/joy_to_can/package.xml

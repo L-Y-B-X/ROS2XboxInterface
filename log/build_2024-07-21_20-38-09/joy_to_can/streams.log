@@ -1,0 +1,65 @@
+[0.022s] Invoking command in '/home/lyb/Desktop/dev_ws/build/joy_to_can': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/lyb/Desktop/dev_ws/build/joy_to_can -- -j8 -l8
+[0.077s] [35m[1mScanning dependencies of target joy_to_can_node[0m
+[0.121s] [ 33%] [32mBuilding CXX object CMakeFiles/joy_to_can_node.dir/src/main.cpp.o[0m
+[1.163s] [01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/main.cpp:[m[K In member function ‘[01m[Kvoid JoyToCANNode::setup_can_socket()[m[K’:
+[1.163s] [01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/main.cpp:20:29:[m[K [01;31m[Kerror: [m[K‘[01m[KPF_CAN[m[K’ was not declared in this scope; did you mean ‘[01m[KFP_NAN[m[K’?
+[1.163s]    20 |         if ((sock_ = socket([01;31m[KPF_CAN[m[K, SOCK_RAW, CAN_RAW)) < 0) {
+[1.164s]       |                             [01;31m[K^~~~~~[m[K
+[1.164s]       |                             [32m[KFP_NAN[m[K
+[1.164s] [01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/main.cpp:20:37:[m[K [01;31m[Kerror: [m[K‘[01m[KSOCK_RAW[m[K’ was not declared in this scope
+[1.165s]    20 |         if ((sock_ = socket(PF_CAN, [01;31m[KSOCK_RAW[m[K, CAN_RAW)) < 0) {
+[1.165s]       |                                     [01;31m[K^~~~~~~~[m[K
+[1.167s] [01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/main.cpp:20:47:[m[K [01;31m[Kerror: [m[K‘[01m[KCAN_RAW[m[K’ was not declared in this scope
+[1.167s]    20 |         if ((sock_ = socket(PF_CAN, SOCK_RAW, [01;31m[KCAN_RAW[m[K)) < 0) {
+[1.167s]       |                                               [01;31m[K^~~~~~~[m[K
+[1.169s] [01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/main.cpp:20:22:[m[K [01;31m[Kerror: [m[K‘[01m[Ksocket[m[K’ was not declared in this scope; did you mean ‘[01m[Ksock_[m[K’?
+[1.170s]    20 |         if ((sock_ = [01;31m[Ksocket[m[K(PF_CAN, SOCK_RAW, CAN_RAW)) < 0) {
+[1.170s]       |                      [01;31m[K^~~~~~[m[K
+[1.170s]       |                      [32m[Ksock_[m[K
+[1.171s] [01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/main.cpp:25:22:[m[K [01;31m[Kerror: [m[Kaggregate ‘[01m[KJoyToCANNode::setup_can_socket()::ifreq ifr[m[K’ has incomplete type and cannot be defined
+[1.171s]    25 |         struct ifreq [01;31m[Kifr[m[K;
+[1.171s]       |                      [01;31m[K^~~[m[K
+[1.173s] [01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/main.cpp:27:22:[m[K [01;31m[Kerror: [m[K‘[01m[KSIOCGIFINDEX[m[K’ was not declared in this scope
+[1.173s]    27 |         ioctl(sock_, [01;31m[KSIOCGIFINDEX[m[K, &ifr);
+[1.173s]       |                      [01;31m[K^~~~~~~~~~~~[m[K
+[1.174s] [01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/main.cpp:27:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kioctl[m[K’ was not declared in this scope
+[1.175s]    27 |         [01;31m[Kioctl[m[K(sock_, SIOCGIFINDEX, &ifr);
+[1.175s]       |         [01;31m[K^~~~~[m[K
+[1.175s] [01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/main.cpp:29:29:[m[K [01;31m[Kerror: [m[Kaggregate ‘[01m[KJoyToCANNode::setup_can_socket()::sockaddr_can addr[m[K’ has incomplete type and cannot be defined
+[1.175s]    29 |         struct sockaddr_can [01;31m[Kaddr[m[K;
+[1.175s]       |                             [01;31m[K^~~~[m[K
+[1.176s] [01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/main.cpp:30:27:[m[K [01;31m[Kerror: [m[K‘[01m[KAF_CAN[m[K’ was not declared in this scope
+[1.176s]    30 |         addr.can_family = [01;31m[KAF_CAN[m[K;
+[1.176s]       |                           [01;31m[K^~~~~~[m[K
+[1.176s] [01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/main.cpp:33:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kbind[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::bind[m[K’?
+[1.176s]    33 |         if ([01;31m[Kbind[m[K(sock_, (struct sockaddr *)&addr, sizeof(addr)) < 0) {
+[1.177s]       |             [01;31m[K^~~~[m[K
+[1.177s]       |             [32m[Kstd::bind[m[K
+[1.177s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/context.hpp:19[m[K,
+[1.177s]                  from [01m[K/opt/ros/foxy/include/rclcpp/contexts/default_context.hpp:18[m[K,
+[1.178s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:32[m[K,
+[1.178s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.178s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.178s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.178s]                  from [01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/main.cpp:1[m[K:
+[1.178s] [01m[K/usr/include/c++/9/functional:832:5:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::bind[m[K’ declared here
+[1.178s]   832 |     [01;36m[Kbind[m[K(_Func&& __f, _BoundArgs&&... __args)
+[1.178s]       |     [01;36m[K^~~~[m[K
+[1.183s] [01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/main.cpp:[m[K In member function ‘[01m[Kvoid JoyToCANNode::joy_callback(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.184s] [01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/main.cpp:41:13:[m[K [01;31m[Kerror: [m[K‘[01m[KMotor_Enable[m[K’ was not declared in this scope
+[1.184s]    41 |             [01;31m[KMotor_Enable[m[K(sock_);
+[1.184s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[1.185s] [01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/main.cpp:50:13:[m[K [01;31m[Kerror: [m[K‘[01m[KMotor_Stop[m[K’ was not declared in this scope
+[1.186s]    50 |             [01;31m[KMotor_Stop[m[K(sock_);
+[1.186s]       |             [01;31m[K^~~~~~~~~~[m[K
+[1.187s] [01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/main.cpp:[m[K In member function ‘[01m[Kvoid JoyToCANNode::setMotorPosition(uint8_t, float)[m[K’:
+[1.187s] [01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/main.cpp:70:9:[m[K [01;31m[Kerror: [m[K‘[01m[KCAN_SendFrame[m[K’ was not declared in this scope
+[1.187s]    70 |         [01;31m[KCAN_SendFrame[m[K(sock_, &frame);
+[1.188s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[1.188s] [01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/main.cpp:54:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmotor_id[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.188s]    54 |     void setMotorPosition([01;35m[Kuint8_t motor_id[m[K, float position) {
+[1.188s]       |                           [01;35m[K~~~~~~~~^~~~~~~~[m[K
+[2.492s] make[2]: *** [CMakeFiles/joy_to_can_node.dir/build.make:76: CMakeFiles/joy_to_can_node.dir/src/main.cpp.o] Error 1
+[2.492s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/joy_to_can_node.dir/all] Error 2
+[2.492s] make: *** [Makefile:141: all] Error 2
+[2.499s] Invoked command in '/home/lyb/Desktop/dev_ws/build/joy_to_can' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/lyb/Desktop/dev_ws/build/joy_to_can -- -j8 -l8

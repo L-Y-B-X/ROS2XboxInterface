@@ -1,0 +1,53 @@
+[0.017s] Invoking command in '/home/lyb/Desktop/dev_ws/build/joy_to_can': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/lyb/Desktop/dev_ws/build/joy_to_can -- -j8 -l8
+[0.050s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.070s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.196s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.223s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.225s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.337s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.375s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.376s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.488s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.565s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.615s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.616s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.616s] -- Configured cppcheck include dirs: /home/lyb/Desktop/dev_ws/src/joy_to_can/include
+[0.616s] -- Configured cppcheck exclude dirs and/or files: 
+[0.619s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.619s] -- Configured cpplint exclude dirs and/or files: 
+[0.619s] -- Added test 'lint_cmake' to check CMake code style
+[0.619s] -- Added test 'uncrustify' to check C / C++ code style
+[0.620s] -- Configured uncrustify additional arguments: 
+[0.620s] -- Added test 'xmllint' to check XML markup files
+[0.621s] -- Configuring done
+[0.631s] -- Generating done
+[0.636s] -- Build files have been written to: /home/lyb/Desktop/dev_ws/build/joy_to_can
+[0.665s] [35m[1mScanning dependencies of target joy_to_can_node[0m
+[0.692s] [ 50%] [32mBuilding CXX object CMakeFiles/joy_to_can_node.dir/src/joy_to_can_node.cpp.o[0m
+[1.777s] [01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:[m[K In member function ‘[01m[Kvoid JoyToCANNode::setMotorPosition(uint8_t, float)[m[K’:
+[1.778s] [01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:82:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmotor_id[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.778s]    82 |     void setMotorPosition([01;35m[Kuint8_t motor_id[m[K, float position) {
+[1.778s]       |                           [01;35m[K~~~~~~~~^~~~~~~~[m[K
+[4.679s] [100%] [32m[1mLinking CXX executable joy_to_can_node[0m
+[4.887s] [100%] Built target joy_to_can_node
+[4.903s] Invoked command in '/home/lyb/Desktop/dev_ws/build/joy_to_can' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/lyb/Desktop/dev_ws/build/joy_to_can -- -j8 -l8
+[4.939s] Invoking command in '/home/lyb/Desktop/dev_ws/build/joy_to_can': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/lyb/Desktop/dev_ws/build/joy_to_can
+[4.947s] -- Install configuration: ""
+[4.947s] -- Installing: /home/lyb/Desktop/dev_ws/install/joy_to_can/lib/joy_to_can/joy_to_can_node
+[4.951s] -- Set runtime path of "/home/lyb/Desktop/dev_ws/install/joy_to_can/lib/joy_to_can/joy_to_can_node" to ""
+[4.951s] -- Up-to-date: /home/lyb/Desktop/dev_ws/install/joy_to_can/share/ament_index/resource_index/package_run_dependencies/joy_to_can
+[4.951s] -- Up-to-date: /home/lyb/Desktop/dev_ws/install/joy_to_can/share/ament_index/resource_index/parent_prefix_path/joy_to_can
+[4.951s] -- Up-to-date: /home/lyb/Desktop/dev_ws/install/joy_to_can/share/joy_to_can/environment/ament_prefix_path.sh
+[4.952s] -- Installing: /home/lyb/Desktop/dev_ws/install/joy_to_can/share/joy_to_can/environment/ament_prefix_path.dsv
+[4.952s] -- Up-to-date: /home/lyb/Desktop/dev_ws/install/joy_to_can/share/joy_to_can/environment/path.sh
+[4.952s] -- Installing: /home/lyb/Desktop/dev_ws/install/joy_to_can/share/joy_to_can/environment/path.dsv
+[4.953s] -- Up-to-date: /home/lyb/Desktop/dev_ws/install/joy_to_can/share/joy_to_can/local_setup.bash
+[4.953s] -- Up-to-date: /home/lyb/Desktop/dev_ws/install/joy_to_can/share/joy_to_can/local_setup.sh
+[4.953s] -- Up-to-date: /home/lyb/Desktop/dev_ws/install/joy_to_can/share/joy_to_can/local_setup.zsh
+[4.953s] -- Installing: /home/lyb/Desktop/dev_ws/install/joy_to_can/share/joy_to_can/local_setup.dsv
+[4.954s] -- Installing: /home/lyb/Desktop/dev_ws/install/joy_to_can/share/joy_to_can/package.dsv
+[4.954s] -- Up-to-date: /home/lyb/Desktop/dev_ws/install/joy_to_can/share/ament_index/resource_index/packages/joy_to_can
+[4.954s] -- Up-to-date: /home/lyb/Desktop/dev_ws/install/joy_to_can/share/joy_to_can/cmake/joy_to_canConfig.cmake
+[4.954s] -- Up-to-date: /home/lyb/Desktop/dev_ws/install/joy_to_can/share/joy_to_can/cmake/joy_to_canConfig-version.cmake
+[4.954s] -- Up-to-date: /home/lyb/Desktop/dev_ws/install/joy_to_can/share/joy_to_can/package.xml
+[4.956s] Invoked command in '/home/lyb/Desktop/dev_ws/build/joy_to_can' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/lyb/Desktop/dev_ws/build/joy_to_can

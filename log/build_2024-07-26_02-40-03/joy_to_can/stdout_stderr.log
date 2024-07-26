@@ -1,0 +1,10 @@
+[35m[1mScanning dependencies of target joy_to_can_node[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/joy_to_can_node.dir/src/main.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/joy_to_can_node.dir/src/joy_to_can_node.cpp.o[0m
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:[m[K In function ‘[01m[Kvoid Motor_Stop(int)[m[K’:
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:51:29:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K;[m[K’ token
+   51 |     Motor_Stop_Frame.mode = [01;31m[K;[m[K
+      |                             [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/joy_to_can_node.dir/build.make:63: CMakeFiles/joy_to_can_node.dir/src/joy_to_can_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/joy_to_can_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

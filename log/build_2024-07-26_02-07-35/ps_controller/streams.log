@@ -1,0 +1,23 @@
+[0.029s] Invoking command in '/home/lyb/Desktop/dev_ws/build/ps_controller': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/lyb/Desktop/dev_ws/build/ps_controller -- -j8 -l8
+[0.211s] [ 50%] Built target joy_control
+[0.227s] Invoked command in '/home/lyb/Desktop/dev_ws/build/ps_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/lyb/Desktop/dev_ws/build/ps_controller -- -j8 -l8
+[0.277s] Invoking command in '/home/lyb/Desktop/dev_ws/build/ps_controller': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/lyb/Desktop/dev_ws/build/ps_controller
+[0.285s] -- Install configuration: ""
+[0.286s] -- Execute custom install script
+[0.288s] -- Up-to-date symlink: /home/lyb/Desktop/dev_ws/install/ps_controller/lib/ps_controller/joy_control
+[0.290s] -- Up-to-date symlink: /home/lyb/Desktop/dev_ws/install/ps_controller/share/ament_index/resource_index/package_run_dependencies/ps_controller
+[0.291s] -- Up-to-date symlink: /home/lyb/Desktop/dev_ws/install/ps_controller/share/ament_index/resource_index/parent_prefix_path/ps_controller
+[0.292s] -- Up-to-date symlink: /home/lyb/Desktop/dev_ws/install/ps_controller/share/ps_controller/environment/ament_prefix_path.sh
+[0.293s] -- Up-to-date symlink: /home/lyb/Desktop/dev_ws/install/ps_controller/share/ps_controller/environment/ament_prefix_path.dsv
+[0.294s] -- Up-to-date symlink: /home/lyb/Desktop/dev_ws/install/ps_controller/share/ps_controller/environment/path.sh
+[0.295s] -- Up-to-date symlink: /home/lyb/Desktop/dev_ws/install/ps_controller/share/ps_controller/environment/path.dsv
+[0.295s] -- Up-to-date symlink: /home/lyb/Desktop/dev_ws/install/ps_controller/share/ps_controller/local_setup.bash
+[0.296s] -- Up-to-date symlink: /home/lyb/Desktop/dev_ws/install/ps_controller/share/ps_controller/local_setup.sh
+[0.297s] -- Up-to-date symlink: /home/lyb/Desktop/dev_ws/install/ps_controller/share/ps_controller/local_setup.zsh
+[0.297s] -- Up-to-date symlink: /home/lyb/Desktop/dev_ws/install/ps_controller/share/ps_controller/local_setup.dsv
+[0.298s] -- Symlinking: /home/lyb/Desktop/dev_ws/install/ps_controller/share/ps_controller/package.dsv
+[0.309s] -- Up-to-date symlink: /home/lyb/Desktop/dev_ws/install/ps_controller/share/ament_index/resource_index/packages/ps_controller
+[0.311s] -- Up-to-date symlink: /home/lyb/Desktop/dev_ws/install/ps_controller/share/ps_controller/cmake/ps_controllerConfig.cmake
+[0.311s] -- Up-to-date symlink: /home/lyb/Desktop/dev_ws/install/ps_controller/share/ps_controller/cmake/ps_controllerConfig-version.cmake
+[0.311s] -- Up-to-date symlink: /home/lyb/Desktop/dev_ws/install/ps_controller/share/ps_controller/package.xml
+[0.314s] Invoked command in '/home/lyb/Desktop/dev_ws/build/ps_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/lyb/Desktop/dev_ws/build/ps_controller

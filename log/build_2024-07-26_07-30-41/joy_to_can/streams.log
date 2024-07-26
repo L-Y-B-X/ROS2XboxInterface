@@ -1,0 +1,36 @@
+[0.020s] Invoking command in '/home/lyb/Desktop/dev_ws/build/joy_to_can': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/lyb/Desktop/dev_ws/build/joy_to_can -- -j8 -l8
+[0.079s] [35m[1mScanning dependencies of target joy_to_can_node[0m
+[0.113s] [ 33%] [32mBuilding CXX object CMakeFiles/joy_to_can_node.dir/src/joy_to_can_node.cpp.o[0m
+[1.069s] [01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:[m[K In member function ‘[01m[Kvoid JoyToCANNode::setMotorPosition(uint8_t, float)[m[K’:
+[1.069s] [01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:85:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmotor_id[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.070s]    85 | void JoyToCANNode::setMotorPosition([01;35m[Kuint8_t motor_id[m[K, float position) {
+[1.070s]       |                                     [01;35m[K~~~~~~~~^~~~~~~~[m[K
+[1.070s] [01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:[m[K At global scope:
+[1.070s] [01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:104:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid JoyToCANNode::setMotorParameter(uint8_t, uint16_t, float)[m[K’
+[1.070s]   104 | void [01;31m[KJoyToCANNode[m[K::setMotorParameter(uint8_t motor_id, uint16_t index, float value) {
+[1.070s]       |      [01;31m[K^~~~~~~~~~~~[m[K
+[1.070s] [01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:104:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid JoyToCANNode::setMotorParameter(uint8_t, uint16_t, float)[m[K’
+[1.070s] In file included from [01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:1[m[K:
+[1.070s] [01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/include/joy_to_can/joy_to_can_node.hpp:11:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass JoyToCANNode[m[K’ defined here
+[1.070s]    11 | class [01;36m[KJoyToCANNode[m[K : public rclcpp::Node {
+[1.070s]       |       [01;36m[K^~~~~~~~~~~~[m[K
+[1.071s] [01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:[m[K In function ‘[01m[Kvoid setMotorMode(uint8_t, uint16_t, uint8_t)[m[K’:
+[1.071s] [01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:136:19:[m[K [01;31m[Kerror: [m[K‘[01m[Ksock_[m[K’ was not declared in this scope
+[1.071s]   136 |     CAN_SendFrame([01;31m[Ksock_[m[K, &frame);
+[1.071s]       |                   [01;31m[K^~~~~[m[K
+[1.071s] [01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:125:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmotor_id[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.071s]   125 | void setMotorMode([01;35m[Kuint8_t motor_id[m[K, uint16_t index, uint8_t mode) {
+[1.071s]       |                   [01;35m[K~~~~~~~~^~~~~~~~[m[K
+[1.076s] [01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:[m[K In member function ‘[01m[Kvoid JoyToCANNode::joy_callback(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.076s] [01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:158:9:[m[K [01;31m[Kerror: [m[K‘[01m[KsetMotorParameter[m[K’ was not declared in this scope; did you mean ‘[01m[Kset_parameter[m[K’?
+[1.076s]   158 |         [01;31m[KsetMotorParameter[m[K(1, 0x7016, speed);
+[1.076s]       |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[1.076s]       |         [32m[Kset_parameter[m[K
+[1.078s] [01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:163:9:[m[K [01;31m[Kerror: [m[K‘[01m[KsetMotorParameter[m[K’ was not declared in this scope; did you mean ‘[01m[Kset_parameter[m[K’?
+[1.078s]   163 |         [01;31m[KsetMotorParameter[m[K(1, 0x7016, position);
+[1.078s]       |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[1.078s]       |         [32m[Kset_parameter[m[K
+[2.281s] make[2]: *** [CMakeFiles/joy_to_can_node.dir/build.make:63: CMakeFiles/joy_to_can_node.dir/src/joy_to_can_node.cpp.o] Error 1
+[2.281s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/joy_to_can_node.dir/all] Error 2
+[2.282s] make: *** [Makefile:141: all] Error 2
+[2.286s] Invoked command in '/home/lyb/Desktop/dev_ws/build/joy_to_can' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/lyb/Desktop/dev_ws/build/joy_to_can -- -j8 -l8

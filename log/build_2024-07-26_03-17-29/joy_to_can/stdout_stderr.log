@@ -1,0 +1,49 @@
+[35m[1mScanning dependencies of target joy_to_can_node[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/joy_to_can_node.dir/src/main.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/joy_to_can_node.dir/src/joy_to_can_node.cpp.o[0m
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:[m[K In member function ‘[01m[Kvoid JoyToCANNode::joy_callback(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:96:41:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KJoyToCANNode::setMotorMode(int&, int, int, int)[m[K’
+   96 |         setMotorMode(sock_, 1, 0x7005, 2[01;31m[K)[m[K; // 设置为速度模式
+      |                                         [01;31m[K^[m[K
+In file included from [01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:1[m[K:
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/include/joy_to_can/joy_to_can_node.hpp:15:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid JoyToCANNode::setMotorMode(uint8_t, uint16_t, uint8_t)[m[K’
+   15 |     void [01;36m[KsetMotorMode[m[K(uint8_t motor_id, uint16_t index, uint8_t mode);
+      |          [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/include/joy_to_can/joy_to_can_node.hpp:15:10:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:100:41:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KJoyToCANNode::setMotorMode(int&, int, int, int)[m[K’
+  100 |         setMotorMode(sock_, 1, 0x7005, 3[01;31m[K)[m[K; // 设置为位置模式
+      |                                         [01;31m[K^[m[K
+In file included from [01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:1[m[K:
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/include/joy_to_can/joy_to_can_node.hpp:15:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid JoyToCANNode::setMotorMode(uint8_t, uint16_t, uint8_t)[m[K’
+   15 |     void [01;36m[KsetMotorMode[m[K(uint8_t motor_id, uint16_t index, uint8_t mode);
+      |          [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/include/joy_to_can/joy_to_can_node.hpp:15:10:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:105:9:[m[K [01;31m[Kerror: [m[K‘[01m[KsetMotorParameter[m[K’ was not declared in this scope; did you mean ‘[01m[Kset_parameter[m[K’?
+  105 |         [01;31m[KsetMotorParameter[m[K(sock_, 1, 0x7016, speed);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Kset_parameter[m[K
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:110:9:[m[K [01;31m[Kerror: [m[K‘[01m[KsetMotorParameter[m[K’ was not declared in this scope; did you mean ‘[01m[Kset_parameter[m[K’?
+  110 |         [01;31m[KsetMotorParameter[m[K(sock_, 1, 0x7016, position);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Kset_parameter[m[K
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:[m[K In member function ‘[01m[Kvoid JoyToCANNode::setMotorPosition(uint8_t, float)[m[K’:
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:116:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmotor_id[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  116 | void JoyToCANNode::setMotorPosition([01;35m[Kuint8_t motor_id[m[K, float position) {
+      |                                     [01;35m[K~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:[m[K In function ‘[01m[Kvoid setMotorParameter(uint8_t, uint16_t, float)[m[K’:
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:153:19:[m[K [01;31m[Kerror: [m[K‘[01m[Ksock_[m[K’ was not declared in this scope
+  153 |     CAN_SendFrame([01;31m[Ksock_[m[K, &frame);
+      |                   [01;31m[K^~~~~[m[K
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:135:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmotor_id[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  135 | void setMotorParameter([01;35m[Kuint8_t motor_id[m[K, uint16_t index, float value) {
+      |                        [01;35m[K~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:[m[K In function ‘[01m[Kvoid setMotorMode(uint8_t, uint16_t, uint8_t)[m[K’:
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:167:19:[m[K [01;31m[Kerror: [m[K‘[01m[Ksock_[m[K’ was not declared in this scope
+  167 |     CAN_SendFrame([01;31m[Ksock_[m[K, &frame);
+      |                   [01;31m[K^~~~~[m[K
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:156:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmotor_id[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  156 | void setMotorMode([01;35m[Kuint8_t motor_id[m[K, uint16_t index, uint8_t mode) {
+      |                   [01;35m[K~~~~~~~~^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/joy_to_can_node.dir/build.make:63: CMakeFiles/joy_to_can_node.dir/src/joy_to_can_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/joy_to_can_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

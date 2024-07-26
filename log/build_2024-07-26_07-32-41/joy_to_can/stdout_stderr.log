@@ -1,0 +1,21 @@
+[35m[1mScanning dependencies of target joy_to_can_node[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/joy_to_can_node.dir/src/joy_to_can_node.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/joy_to_can_node.dir/src/main.cpp.o[0m
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:[m[K In member function ‘[01m[Kvoid JoyToCANNode::setMotorPosition(uint8_t, float)[m[K’:
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:85:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmotor_id[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   85 | void JoyToCANNode::setMotorPosition([01;35m[Kuint8_t motor_id[m[K, float position) {
+      |                                     [01;35m[K~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:[m[K In member function ‘[01m[Kvoid JoyToCANNode::setMotorParameter(uint8_t, uint16_t, float)[m[K’:
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:104:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmotor_id[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  104 | void JoyToCANNode::setMotorParameter([01;35m[Kuint8_t motor_id[m[K, uint16_t index, float value) {
+      |                                      [01;35m[K~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:[m[K In function ‘[01m[Kvoid setMotorMode(uint8_t, uint16_t, uint8_t)[m[K’:
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:136:19:[m[K [01;31m[Kerror: [m[K‘[01m[Ksock_[m[K’ was not declared in this scope
+  136 |     CAN_SendFrame([01;31m[Ksock_[m[K, &frame);
+      |                   [01;31m[K^~~~~[m[K
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:125:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmotor_id[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  125 | void setMotorMode([01;35m[Kuint8_t motor_id[m[K, uint16_t index, uint8_t mode) {
+      |                   [01;35m[K~~~~~~~~^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/joy_to_can_node.dir/build.make:63: CMakeFiles/joy_to_can_node.dir/src/joy_to_can_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/joy_to_can_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

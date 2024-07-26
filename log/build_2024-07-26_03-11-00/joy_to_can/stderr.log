@@ -1,0 +1,70 @@
+In file included from [01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/main.cpp:2[m[K:
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/include/joy_to_can/joy_to_can_node.hpp:22:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid JoyToCANNode::setMotorPosition(uint8_t, float)[m[K’ cannot be overloaded with ‘[01m[Kvoid JoyToCANNode::setMotorPosition(uint8_t, float)[m[K’
+   22 |     void [01;31m[KsetMotorPosition[m[K(uint8_t motor_id, float position);
+      |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/include/joy_to_can/joy_to_can_node.hpp:13:11:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid JoyToCANNode::setMotorPosition(uint8_t, float)[m[K’
+   13 |      void [01;36m[KsetMotorPosition[m[K(uint8_t motor_id, float position); // 确保声明与定义匹配
+      |           [01;36m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:1[m[K:
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/include/joy_to_can/joy_to_can_node.hpp:22:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid JoyToCANNode::setMotorPosition(uint8_t, float)[m[K’ cannot be overloaded with ‘[01m[Kvoid JoyToCANNode::setMotorPosition(uint8_t, float)[m[K’
+   22 |     void [01;31m[KsetMotorPosition[m[K(uint8_t motor_id, float position);
+      |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/include/joy_to_can/joy_to_can_node.hpp:13:11:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid JoyToCANNode::setMotorPosition(uint8_t, float)[m[K’
+   13 |      void [01;36m[KsetMotorPosition[m[K(uint8_t motor_id, float position); // 确保声明与定义匹配
+      |           [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:[m[K In member function ‘[01m[Kvoid JoyToCANNode::joy_callback(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:90:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmotor_enabled[m[K’ was not declared in this scope; did you mean ‘[01m[KMotor_Enable[m[K’?
+   90 |             [01;31m[Kmotor_enabled[m[K = true;
+      |             [01;31m[K^~~~~~~~~~~~~[m[K
+      |             [32m[KMotor_Enable[m[K
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:94:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmotor_enabled[m[K’ was not declared in this scope; did you mean ‘[01m[KMotor_Enable[m[K’?
+   94 |             [01;31m[Kmotor_enabled[m[K = false;
+      |             [01;31m[K^~~~~~~~~~~~~[m[K
+      |             [32m[KMotor_Enable[m[K
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:98:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_mode[m[K’ was not declared in this scope
+   98 |             [01;31m[Kcurrent_mode[m[K = 2;
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:102:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_mode[m[K’ was not declared in this scope
+  102 |             [01;31m[Kcurrent_mode[m[K = 1;
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:106:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmotor_enabled[m[K’ was not declared in this scope; did you mean ‘[01m[KMotor_Enable[m[K’?
+  106 |     if ([01;31m[Kmotor_enabled[m[K) {
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+      |         [32m[KMotor_Enable[m[K
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:107:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_mode[m[K’ was not declared in this scope
+  107 |         if ([01;31m[Kcurrent_mode[m[K == 1 && msg->axes.size() > 1) { // Position mode
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:109:13:[m[K [01;31m[Kerror: [m[K‘[01m[KsetMotorParameter[m[K’ was not declared in this scope; did you mean ‘[01m[Kset_parameter[m[K’?
+  109 |             [01;31m[KsetMotorParameter[m[K(1, 0x7016, position); // Adjust motor position
+      |             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |             [32m[Kset_parameter[m[K
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:111:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_mode[m[K’ was not declared in this scope
+  111 |         if ([01;31m[Kcurrent_mode[m[K == 2 && msg->axes.size() > 1) { // Speed mode
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:113:13:[m[K [01;31m[Kerror: [m[K‘[01m[KsetMotorParameter[m[K’ was not declared in this scope; did you mean ‘[01m[Kset_parameter[m[K’?
+  113 |             [01;31m[KsetMotorParameter[m[K(1, 0x7016, speed); // Adjust motor speed
+      |             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |             [32m[Kset_parameter[m[K
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:[m[K In member function ‘[01m[Kvoid JoyToCANNode::setMotorPosition(uint8_t, float)[m[K’:
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:119:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmotor_id[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  119 | void JoyToCANNode::setMotorPosition([01;35m[Kuint8_t motor_id[m[K, float position) {
+      |                                     [01;35m[K~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:[m[K In function ‘[01m[Kvoid setMotorParameter(uint8_t, uint16_t, float)[m[K’:
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:156:19:[m[K [01;31m[Kerror: [m[K‘[01m[Ksock_[m[K’ was not declared in this scope
+  156 |     CAN_SendFrame([01;31m[Ksock_[m[K, &frame);
+      |                   [01;31m[K^~~~~[m[K
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:138:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmotor_id[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  138 | void setMotorParameter([01;35m[Kuint8_t motor_id[m[K, uint16_t index, float value) {
+      |                        [01;35m[K~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:[m[K In function ‘[01m[Kvoid setMotorMode(uint8_t, uint16_t, uint8_t)[m[K’:
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:170:19:[m[K [01;31m[Kerror: [m[K‘[01m[Ksock_[m[K’ was not declared in this scope
+  170 |     CAN_SendFrame([01;31m[Ksock_[m[K, &frame);
+      |                   [01;31m[K^~~~~[m[K
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:159:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmotor_id[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  159 | void setMotorMode([01;35m[Kuint8_t motor_id[m[K, uint16_t index, uint8_t mode) {
+      |                   [01;35m[K~~~~~~~~^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/joy_to_can_node.dir/build.make:76: CMakeFiles/joy_to_can_node.dir/src/main.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/joy_to_can_node.dir/build.make:63: CMakeFiles/joy_to_can_node.dir/src/joy_to_can_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/joy_to_can_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

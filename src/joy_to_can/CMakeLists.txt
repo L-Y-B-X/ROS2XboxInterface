@@ -20,9 +20,13 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(sensor_msgs REQUIRED)
 
+# Include directories
+include_directories(
+  ${CMAKE_CURRENT_SOURCE_DIR}/include  # 添加 include 目录路径
+)
 
+add_executable(joy_to_can_node src/joy_to_can_node.cpp src/main.cpp) 
 
-add_executable(joy_to_can_node src/joy_to_can_node.cpp)
 ament_target_dependencies(joy_to_can_node
   rclcpp
   sensor_msgs

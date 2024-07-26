@@ -1,0 +1,204 @@
+[0.174s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.174s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fb58c64cb20>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fb58c64cb20>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fb58c65f040>)
+[0.312s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.312s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.312s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.312s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.312s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.312s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.312s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lyb/Desktop/dev_ws'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_to_can) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_to_can) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_to_can) by extension 'ignore_ament_install'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_to_can) by extensions ['colcon_pkg']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_to_can) by extension 'colcon_pkg'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_to_can) by extensions ['colcon_meta']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_to_can) by extension 'colcon_meta'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_to_can) by extensions ['ros']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_to_can) by extension 'ros'
+[0.328s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joy_to_can' with type 'ros.ament_cmake' and name 'joy_to_can'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/ps_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/ps_controller) by extension 'ignore'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/ps_controller) by extension 'ignore_ament_install'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/ps_controller) by extensions ['colcon_pkg']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/ps_controller) by extension 'colcon_pkg'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/ps_controller) by extensions ['colcon_meta']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/ps_controller) by extension 'colcon_meta'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/ps_controller) by extensions ['ros']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/ps_controller) by extension 'ros'
+[0.329s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ps_controller' with type 'ros.ament_cmake' and name 'ps_controller'
+[0.329s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.329s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.329s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.329s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.329s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.351s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.351s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.356s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 256 installed packages in /opt/ros/foxy
+[0.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'joy_to_can' build argument 'cmake_args' from command line to 'None'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'joy_to_can' build argument 'cmake_target' from command line to 'None'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'joy_to_can' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'joy_to_can' build argument 'cmake_clean_cache' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'joy_to_can' build argument 'cmake_clean_first' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'joy_to_can' build argument 'cmake_force_configure' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'joy_to_can' build argument 'ament_cmake_args' from command line to 'None'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'joy_to_can' build argument 'catkin_cmake_args' from command line to 'None'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'joy_to_can' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.422s] DEBUG:colcon.colcon_core.verb:Building package 'joy_to_can' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lyb/Desktop/dev_ws/build/joy_to_can', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lyb/Desktop/dev_ws/install/joy_to_can', 'merge_install': False, 'path': '/home/lyb/Desktop/dev_ws/src/joy_to_can', 'symlink_install': False, 'test_result_base': None}
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'ps_controller' build argument 'cmake_args' from command line to 'None'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'ps_controller' build argument 'cmake_target' from command line to 'None'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'ps_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'ps_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'ps_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'ps_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'ps_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'ps_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'ps_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.422s] DEBUG:colcon.colcon_core.verb:Building package 'ps_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lyb/Desktop/dev_ws/build/ps_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lyb/Desktop/dev_ws/install/ps_controller', 'merge_install': False, 'path': '/home/lyb/Desktop/dev_ws/src/ps_controller', 'symlink_install': False, 'test_result_base': None}
+[0.423s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.423s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.423s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lyb/Desktop/dev_ws/src/joy_to_can' with build type 'ament_cmake'
+[0.424s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lyb/Desktop/dev_ws/src/joy_to_can'
+[0.431s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.431s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.431s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.436s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lyb/Desktop/dev_ws/src/ps_controller' with build type 'ament_cmake'
+[0.436s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lyb/Desktop/dev_ws/src/ps_controller'
+[0.437s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.437s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.447s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lyb/Desktop/dev_ws/build/joy_to_can': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/lyb/Desktop/dev_ws/build/joy_to_can -- -j8 -l8
+[0.466s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lyb/Desktop/dev_ws/build/ps_controller': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/lyb/Desktop/dev_ws/build/ps_controller -- -j8 -l8
+[0.664s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lyb/Desktop/dev_ws/build/ps_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/lyb/Desktop/dev_ws/build/ps_controller -- -j8 -l8
+[0.715s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lyb/Desktop/dev_ws/build/ps_controller': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/lyb/Desktop/dev_ws/build/ps_controller
+[0.751s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ps_controller)
+[0.752s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lyb/Desktop/dev_ws/build/ps_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/lyb/Desktop/dev_ws/build/ps_controller
+[0.763s] Level 1:colcon.colcon_core.environment:checking '/home/lyb/Desktop/dev_ws/install/ps_controller' for CMake module files
+[0.764s] Level 1:colcon.colcon_core.environment:checking '/home/lyb/Desktop/dev_ws/install/ps_controller' for CMake config files
+[0.765s] Level 1:colcon.colcon_core.shell:create_environment_hook('ps_controller', 'cmake_prefix_path')
+[0.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lyb/Desktop/dev_ws/install/ps_controller/share/ps_controller/hook/cmake_prefix_path.ps1'
+[0.766s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lyb/Desktop/dev_ws/install/ps_controller/share/ps_controller/hook/cmake_prefix_path.dsv'
+[0.767s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lyb/Desktop/dev_ws/install/ps_controller/share/ps_controller/hook/cmake_prefix_path.sh'
+[0.768s] Level 1:colcon.colcon_core.environment:checking '/home/lyb/Desktop/dev_ws/install/ps_controller/lib'
+[0.769s] Level 1:colcon.colcon_core.environment:checking '/home/lyb/Desktop/dev_ws/install/ps_controller/bin'
+[0.769s] Level 1:colcon.colcon_core.environment:checking '/home/lyb/Desktop/dev_ws/install/ps_controller/lib/pkgconfig/ps_controller.pc'
+[0.769s] Level 1:colcon.colcon_core.environment:checking '/home/lyb/Desktop/dev_ws/install/ps_controller/lib/python3.8/site-packages'
+[0.769s] Level 1:colcon.colcon_core.environment:checking '/home/lyb/Desktop/dev_ws/install/ps_controller/bin'
+[0.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/lyb/Desktop/dev_ws/install/ps_controller/share/ps_controller/package.ps1'
+[0.770s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lyb/Desktop/dev_ws/install/ps_controller/share/ps_controller/package.dsv'
+[0.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/lyb/Desktop/dev_ws/install/ps_controller/share/ps_controller/package.sh'
+[0.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/lyb/Desktop/dev_ws/install/ps_controller/share/ps_controller/package.bash'
+[0.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/lyb/Desktop/dev_ws/install/ps_controller/share/ps_controller/package.zsh'
+[0.776s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lyb/Desktop/dev_ws/install/ps_controller/share/colcon-core/packages/ps_controller)
+[0.817s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ps_controller)
+[0.818s] Level 1:colcon.colcon_core.environment:checking '/home/lyb/Desktop/dev_ws/install/ps_controller' for CMake module files
+[0.818s] Level 1:colcon.colcon_core.environment:checking '/home/lyb/Desktop/dev_ws/install/ps_controller' for CMake config files
+[0.818s] Level 1:colcon.colcon_core.shell:create_environment_hook('ps_controller', 'cmake_prefix_path')
+[0.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lyb/Desktop/dev_ws/install/ps_controller/share/ps_controller/hook/cmake_prefix_path.ps1'
+[0.819s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lyb/Desktop/dev_ws/install/ps_controller/share/ps_controller/hook/cmake_prefix_path.dsv'
+[0.819s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lyb/Desktop/dev_ws/install/ps_controller/share/ps_controller/hook/cmake_prefix_path.sh'
+[0.820s] Level 1:colcon.colcon_core.environment:checking '/home/lyb/Desktop/dev_ws/install/ps_controller/lib'
+[0.820s] Level 1:colcon.colcon_core.environment:checking '/home/lyb/Desktop/dev_ws/install/ps_controller/bin'
+[0.820s] Level 1:colcon.colcon_core.environment:checking '/home/lyb/Desktop/dev_ws/install/ps_controller/lib/pkgconfig/ps_controller.pc'
+[0.820s] Level 1:colcon.colcon_core.environment:checking '/home/lyb/Desktop/dev_ws/install/ps_controller/lib/python3.8/site-packages'
+[0.820s] Level 1:colcon.colcon_core.environment:checking '/home/lyb/Desktop/dev_ws/install/ps_controller/bin'
+[0.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/lyb/Desktop/dev_ws/install/ps_controller/share/ps_controller/package.ps1'
+[0.821s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lyb/Desktop/dev_ws/install/ps_controller/share/ps_controller/package.dsv'
+[0.821s] INFO:colcon.colcon_core.shell:Creating package script '/home/lyb/Desktop/dev_ws/install/ps_controller/share/ps_controller/package.sh'
+[0.822s] INFO:colcon.colcon_core.shell:Creating package script '/home/lyb/Desktop/dev_ws/install/ps_controller/share/ps_controller/package.bash'
+[0.822s] INFO:colcon.colcon_core.shell:Creating package script '/home/lyb/Desktop/dev_ws/install/ps_controller/share/ps_controller/package.zsh'
+[0.822s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lyb/Desktop/dev_ws/install/ps_controller/share/colcon-core/packages/ps_controller)
+[6.928s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lyb/Desktop/dev_ws/build/joy_to_can' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/lyb/Desktop/dev_ws/build/joy_to_can -- -j8 -l8
+[6.964s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lyb/Desktop/dev_ws/build/joy_to_can': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/lyb/Desktop/dev_ws/build/joy_to_can
+[6.986s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joy_to_can)
+[6.986s] Level 1:colcon.colcon_core.environment:checking '/home/lyb/Desktop/dev_ws/install/joy_to_can' for CMake module files
+[6.987s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lyb/Desktop/dev_ws/build/joy_to_can' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/lyb/Desktop/dev_ws/build/joy_to_can
+[6.988s] Level 1:colcon.colcon_core.environment:checking '/home/lyb/Desktop/dev_ws/install/joy_to_can' for CMake config files
+[6.988s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy_to_can', 'cmake_prefix_path')
+[6.988s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lyb/Desktop/dev_ws/install/joy_to_can/share/joy_to_can/hook/cmake_prefix_path.ps1'
+[6.989s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lyb/Desktop/dev_ws/install/joy_to_can/share/joy_to_can/hook/cmake_prefix_path.dsv'
+[6.989s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lyb/Desktop/dev_ws/install/joy_to_can/share/joy_to_can/hook/cmake_prefix_path.sh'
+[6.990s] Level 1:colcon.colcon_core.environment:checking '/home/lyb/Desktop/dev_ws/install/joy_to_can/lib'
+[6.990s] Level 1:colcon.colcon_core.environment:checking '/home/lyb/Desktop/dev_ws/install/joy_to_can/bin'
+[6.990s] Level 1:colcon.colcon_core.environment:checking '/home/lyb/Desktop/dev_ws/install/joy_to_can/lib/pkgconfig/joy_to_can.pc'
+[6.990s] Level 1:colcon.colcon_core.environment:checking '/home/lyb/Desktop/dev_ws/install/joy_to_can/lib/python3.8/site-packages'
+[6.990s] Level 1:colcon.colcon_core.environment:checking '/home/lyb/Desktop/dev_ws/install/joy_to_can/bin'
+[6.990s] INFO:colcon.colcon_core.shell:Creating package script '/home/lyb/Desktop/dev_ws/install/joy_to_can/share/joy_to_can/package.ps1'
+[6.991s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lyb/Desktop/dev_ws/install/joy_to_can/share/joy_to_can/package.dsv'
+[6.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/lyb/Desktop/dev_ws/install/joy_to_can/share/joy_to_can/package.sh'
+[6.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/lyb/Desktop/dev_ws/install/joy_to_can/share/joy_to_can/package.bash'
+[6.992s] INFO:colcon.colcon_core.shell:Creating package script '/home/lyb/Desktop/dev_ws/install/joy_to_can/share/joy_to_can/package.zsh'
+[6.992s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lyb/Desktop/dev_ws/install/joy_to_can/share/colcon-core/packages/joy_to_can)
+[7.026s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joy_to_can)
+[7.026s] Level 1:colcon.colcon_core.environment:checking '/home/lyb/Desktop/dev_ws/install/joy_to_can' for CMake module files
+[7.026s] Level 1:colcon.colcon_core.environment:checking '/home/lyb/Desktop/dev_ws/install/joy_to_can' for CMake config files
+[7.027s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy_to_can', 'cmake_prefix_path')
+[7.027s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lyb/Desktop/dev_ws/install/joy_to_can/share/joy_to_can/hook/cmake_prefix_path.ps1'
+[7.027s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lyb/Desktop/dev_ws/install/joy_to_can/share/joy_to_can/hook/cmake_prefix_path.dsv'
+[7.028s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lyb/Desktop/dev_ws/install/joy_to_can/share/joy_to_can/hook/cmake_prefix_path.sh'
+[7.028s] Level 1:colcon.colcon_core.environment:checking '/home/lyb/Desktop/dev_ws/install/joy_to_can/lib'
+[7.028s] Level 1:colcon.colcon_core.environment:checking '/home/lyb/Desktop/dev_ws/install/joy_to_can/bin'
+[7.028s] Level 1:colcon.colcon_core.environment:checking '/home/lyb/Desktop/dev_ws/install/joy_to_can/lib/pkgconfig/joy_to_can.pc'
+[7.028s] Level 1:colcon.colcon_core.environment:checking '/home/lyb/Desktop/dev_ws/install/joy_to_can/lib/python3.8/site-packages'
+[7.029s] Level 1:colcon.colcon_core.environment:checking '/home/lyb/Desktop/dev_ws/install/joy_to_can/bin'
+[7.029s] INFO:colcon.colcon_core.shell:Creating package script '/home/lyb/Desktop/dev_ws/install/joy_to_can/share/joy_to_can/package.ps1'
+[7.029s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lyb/Desktop/dev_ws/install/joy_to_can/share/joy_to_can/package.dsv'
+[7.029s] INFO:colcon.colcon_core.shell:Creating package script '/home/lyb/Desktop/dev_ws/install/joy_to_can/share/joy_to_can/package.sh'
+[7.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/lyb/Desktop/dev_ws/install/joy_to_can/share/joy_to_can/package.bash'
+[7.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/lyb/Desktop/dev_ws/install/joy_to_can/share/joy_to_can/package.zsh'
+[7.031s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lyb/Desktop/dev_ws/install/joy_to_can/share/colcon-core/packages/joy_to_can)
+[7.031s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.032s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.032s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.032s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.054s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.054s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.054s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.071s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.072s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lyb/Desktop/dev_ws/install/local_setup.ps1'
+[7.074s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lyb/Desktop/dev_ws/install/_local_setup_util_ps1.py'
+[7.076s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lyb/Desktop/dev_ws/install/setup.ps1'
+[7.077s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lyb/Desktop/dev_ws/install/local_setup.sh'
+[7.078s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lyb/Desktop/dev_ws/install/_local_setup_util_sh.py'
+[7.079s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lyb/Desktop/dev_ws/install/setup.sh'
+[7.080s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lyb/Desktop/dev_ws/install/local_setup.bash'
+[7.081s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lyb/Desktop/dev_ws/install/setup.bash'
+[7.083s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lyb/Desktop/dev_ws/install/local_setup.zsh'
+[7.084s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lyb/Desktop/dev_ws/install/setup.zsh'

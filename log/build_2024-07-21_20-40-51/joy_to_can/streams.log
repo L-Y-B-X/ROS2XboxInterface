@@ -1,0 +1,20 @@
+[0.022s] Invoking command in '/home/lyb/Desktop/dev_ws/build/joy_to_can': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/lyb/Desktop/dev_ws/build/joy_to_can -- -j8 -l8
+[0.076s] [35m[1mScanning dependencies of target joy_to_can_node[0m
+[0.119s] [ 33%] [32mBuilding CXX object CMakeFiles/joy_to_can_node.dir/src/main.cpp.o[0m
+[1.200s] In file included from [01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/main.cpp:2[m[K:
+[1.201s] [01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:[m[K In member function ‘[01m[Kvoid JoyToCANNode::setMotorPosition(uint8_t, float)[m[K’:
+[1.201s] [01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:109:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmotor_id[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.201s]   109 |     void setMotorPosition([01;35m[Kuint8_t motor_id[m[K, float position) {
+[1.201s]       |                           [01;35m[K~~~~~~~~^~~~~~~~[m[K
+[4.024s] [ 66%] [32m[1mLinking CXX executable joy_to_can_node[0m
+[4.233s] /usr/bin/ld: CMakeFiles/joy_to_can_node.dir/src/main.cpp.o: in function `CAN_SendFrame(int, can_frame_t*)':
+[4.233s] main.cpp:(.text+0x180): multiple definition of `CAN_SendFrame(int, can_frame_t*)'; CMakeFiles/joy_to_can_node.dir/src/joy_to_can_node.cpp.o:joy_to_can_node.cpp:(.text+0x0): first defined here
+[4.233s] /usr/bin/ld: CMakeFiles/joy_to_can_node.dir/src/main.cpp.o: in function `Motor_Enable(int)':
+[4.233s] main.cpp:(.text+0x559): multiple definition of `Motor_Enable(int)'; CMakeFiles/joy_to_can_node.dir/src/joy_to_can_node.cpp.o:joy_to_can_node.cpp:(.text+0x3d9): first defined here
+[4.233s] /usr/bin/ld: CMakeFiles/joy_to_can_node.dir/src/main.cpp.o: in function `Motor_Stop(int)':
+[4.233s] main.cpp:(.text+0x5d5): multiple definition of `Motor_Stop(int)'; CMakeFiles/joy_to_can_node.dir/src/joy_to_can_node.cpp.o:joy_to_can_node.cpp:(.text+0x455): first defined here
+[4.233s] collect2: error: ld returned 1 exit status
+[4.235s] make[2]: *** [CMakeFiles/joy_to_can_node.dir/build.make:156: joy_to_can_node] Error 1
+[4.236s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/joy_to_can_node.dir/all] Error 2
+[4.236s] make: *** [Makefile:141: all] Error 2
+[4.244s] Invoked command in '/home/lyb/Desktop/dev_ws/build/joy_to_can' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/lyb/Desktop/dev_ws/build/joy_to_can -- -j8 -l8

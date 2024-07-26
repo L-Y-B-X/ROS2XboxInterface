@@ -1,0 +1,11 @@
+[0.022s] Invoking command in '/home/lyb/Desktop/dev_ws/build/joy_to_can': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/lyb/Desktop/dev_ws/build/joy_to_can -- -j8 -l8
+[0.078s] [35m[1mScanning dependencies of target joy_to_can_node[0m
+[0.140s] [ 33%] [32mBuilding CXX object CMakeFiles/joy_to_can_node.dir/src/main.cpp.o[0m
+[0.242s] [01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/main.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kjoy_to_can_node.hpp: No such file or directory
+[0.242s]     2 | #include [01;31m[K"joy_to_can_node.hpp"[m[K
+[0.242s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[0.242s] compilation terminated.
+[0.245s] make[2]: *** [CMakeFiles/joy_to_can_node.dir/build.make:76: CMakeFiles/joy_to_can_node.dir/src/main.cpp.o] Error 1
+[0.245s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/joy_to_can_node.dir/all] Error 2
+[0.245s] make: *** [Makefile:141: all] Error 2
+[0.252s] Invoked command in '/home/lyb/Desktop/dev_ws/build/joy_to_can' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/lyb/Desktop/dev_ws/build/joy_to_can -- -j8 -l8

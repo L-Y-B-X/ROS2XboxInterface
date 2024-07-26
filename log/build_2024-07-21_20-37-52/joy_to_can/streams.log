@@ -1,0 +1,34 @@
+[0.019s] Invoking command in '/home/lyb/Desktop/dev_ws/build/joy_to_can': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/lyb/Desktop/dev_ws/build/joy_to_can -- -j8 -l8
+[0.059s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.077s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.204s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.233s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.236s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.348s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.391s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.392s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.498s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.576s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.624s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.625s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.625s] -- Configured cppcheck include dirs: /home/lyb/Desktop/dev_ws/src/joy_to_can/include
+[0.625s] -- Configured cppcheck exclude dirs and/or files: 
+[0.626s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.626s] -- Configured cpplint exclude dirs and/or files: 
+[0.627s] -- Added test 'lint_cmake' to check CMake code style
+[0.628s] -- Added test 'uncrustify' to check C / C++ code style
+[0.628s] -- Configured uncrustify additional arguments: 
+[0.628s] -- Added test 'xmllint' to check XML markup files
+[0.631s] -- Configuring done
+[0.645s] -- Generating done
+[0.649s] -- Build files have been written to: /home/lyb/Desktop/dev_ws/build/joy_to_can
+[0.682s] [35m[1mScanning dependencies of target joy_to_can_node[0m
+[0.730s] [ 33%] [32mBuilding CXX object CMakeFiles/joy_to_can_node.dir/src/main.cpp.o[0m
+[0.820s] [01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/main.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kjoy_to_can/can_structs.h: No such file or directory
+[0.820s]     3 | #include [01;31m[K"joy_to_can/can_structs.h"[m[K
+[0.820s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.820s] compilation terminated.
+[0.822s] make[2]: *** [CMakeFiles/joy_to_can_node.dir/build.make:76: CMakeFiles/joy_to_can_node.dir/src/main.cpp.o] Error 1
+[0.823s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/joy_to_can_node.dir/all] Error 2
+[0.823s] make: *** [Makefile:141: all] Error 2
+[0.828s] Invoked command in '/home/lyb/Desktop/dev_ws/build/joy_to_can' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/lyb/Desktop/dev_ws/build/joy_to_can -- -j8 -l8

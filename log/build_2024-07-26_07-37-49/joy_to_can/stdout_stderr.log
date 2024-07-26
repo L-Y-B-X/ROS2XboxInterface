@@ -1,0 +1,18 @@
+[35m[1mScanning dependencies of target joy_to_can_node[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/joy_to_can_node.dir/src/joy_to_can_node.cpp.o[0m
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:[m[K In member function ‘[01m[Kvoid JoyToCANNode::setMotorPosition(uint8_t, float)[m[K’:
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:85:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmotor_id[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   85 | void JoyToCANNode::setMotorPosition([01;35m[Kuint8_t motor_id[m[K, float position) {
+      |                                     [01;35m[K~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:[m[K In member function ‘[01m[Kvoid JoyToCANNode::setMotorParameter(uint8_t, uint16_t, float)[m[K’:
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:104:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmotor_id[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  104 | void JoyToCANNode::setMotorParameter([01;35m[Kuint8_t motor_id[m[K, uint16_t index, float value) {
+      |                                      [01;35m[K~~~~~~~~^~~~~~~~[m[K
+[ 66%] [32m[1mLinking CXX executable joy_to_can_node[0m
+/usr/bin/ld: CMakeFiles/joy_to_can_node.dir/src/joy_to_can_node.cpp.o: in function `JoyToCANNode::joy_callback(std::shared_ptr<sensor_msgs::msg::Joy_<std::allocator<void> > >)':
+joy_to_can_node.cpp:(.text+0x126a): undefined reference to `JoyToCANNode::setMotorMode(unsigned char, unsigned short, unsigned char)'
+/usr/bin/ld: joy_to_can_node.cpp:(.text+0x12d8): undefined reference to `JoyToCANNode::setMotorMode(unsigned char, unsigned short, unsigned char)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/joy_to_can_node.dir/build.make:156: joy_to_can_node] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/joy_to_can_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,20 @@
+[0.021s] Invoking command in '/home/lyb/Desktop/dev_ws/build/joy_to_can': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/lyb/Desktop/dev_ws/build/joy_to_can -- -j8 -l8
+[0.072s] [35m[1mScanning dependencies of target joy_to_can_node[0m
+[0.106s] [ 33%] [32mBuilding CXX object CMakeFiles/joy_to_can_node.dir/src/joy_to_can_node.cpp.o[0m
+[1.134s] [01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:[m[K In member function ‘[01m[Kvoid JoyToCANNode::joy_callback(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.134s] [01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:144:22:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Kvoid Motor_Enable(int)[m[K’
+[1.134s]   144 |         Motor_Enable([01;31m[K)[m[K;
+[1.134s]       |                      [01;31m[K^[m[K
+[1.134s] [01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:45:6:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.134s]    45 | void [01;36m[KMotor_Enable[m[K(int sock) {
+[1.134s]       |      [01;36m[K^~~~~~~~~~~~[m[K
+[1.134s] [01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:149:20:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Kvoid Motor_Stop(int)[m[K’
+[1.134s]   149 |         Motor_Stop([01;31m[K)[m[K;
+[1.134s]       |                    [01;31m[K^[m[K
+[1.134s] [01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:55:6:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.134s]    55 | void [01;36m[KMotor_Stop[m[K(int sock) {
+[1.134s]       |      [01;36m[K^~~~~~~~~~[m[K
+[2.389s] make[2]: *** [CMakeFiles/joy_to_can_node.dir/build.make:63: CMakeFiles/joy_to_can_node.dir/src/joy_to_can_node.cpp.o] Error 1
+[2.389s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/joy_to_can_node.dir/all] Error 2
+[2.389s] make: *** [Makefile:141: all] Error 2
+[2.393s] Invoked command in '/home/lyb/Desktop/dev_ws/build/joy_to_can' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/lyb/Desktop/dev_ws/build/joy_to_can -- -j8 -l8

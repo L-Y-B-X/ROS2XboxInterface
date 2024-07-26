@@ -1,0 +1,7 @@
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/main.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kjoy_to_can_node.hpp: No such file or directory
+    2 | #include [01;31m[K"joy_to_can_node.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/joy_to_can_node.dir/build.make:76: CMakeFiles/joy_to_can_node.dir/src/main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/joy_to_can_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,9 @@
+CMake Error at CMakeLists.txt:29 (add_executable):
+  add_executable cannot create target "joy_to_can_node" because another
+  target with the same name already exists.  The existing target is an
+  executable created in source directory
+  "/home/lyb/Desktop/dev_ws/src/joy_to_can".  See documentation for policy
+  CMP0002 for more details.
+
+
+make: *** [Makefile:266: cmake_check_build_system] Error 1

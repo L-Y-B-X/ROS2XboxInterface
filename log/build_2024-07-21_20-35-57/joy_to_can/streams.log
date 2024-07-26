@@ -1,0 +1,15 @@
+[0.024s] Invoking command in '/home/lyb/Desktop/dev_ws/build/joy_to_can': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/lyb/Desktop/dev_ws/build/joy_to_can -- -j8 -l8
+[0.083s] [35m[1mScanning dependencies of target joy_to_can_node[0m
+[0.138s] [ 50%] [32mBuilding CXX object CMakeFiles/joy_to_can_node.dir/src/joy_to_can_node.cpp.o[0m
+[1.246s] [01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:[m[K In function ‘[01m[Kvoid CAN_SendFrame(int, can_frame_t*)[m[K’:
+[1.247s] [01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:13:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ki[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.247s]    13 |     int [01;35m[Ki[m[K = 0;
+[1.247s]       |         [01;35m[K^[m[K
+[1.583s] [100%] [32m[1mLinking CXX executable joy_to_can_node[0m
+[1.684s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[1.684s] (.text+0x24): undefined reference to `main'
+[1.684s] collect2: error: ld returned 1 exit status
+[1.686s] make[2]: *** [CMakeFiles/joy_to_can_node.dir/build.make:141: joy_to_can_node] Error 1
+[1.687s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/joy_to_can_node.dir/all] Error 2
+[1.687s] make: *** [Makefile:141: all] Error 2
+[1.693s] Invoked command in '/home/lyb/Desktop/dev_ws/build/joy_to_can' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/lyb/Desktop/dev_ws/build/joy_to_can -- -j8 -l8

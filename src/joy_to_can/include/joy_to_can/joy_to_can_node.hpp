@@ -23,6 +23,8 @@ private:
 
     void setup_can_socket();
     void joy_callback(const sensor_msgs::msg::Joy::SharedPtr msg);
+    void handleButtonPress(const std::vector<int>& buttons);
+    void handleAxesMovement(float axisValue);
 };
 
 void CAN_SendFrame(int sock, can_frame_t* frame);

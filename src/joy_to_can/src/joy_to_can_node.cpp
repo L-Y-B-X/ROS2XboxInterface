@@ -166,8 +166,6 @@ void JoyToCANNode::joy_callback(const sensor_msgs::msg::Joy::SharedPtr msg) {
         if (!msg->buttons.empty() && msg->buttons[4] == 1) {
         setMotorParameter(1, 0X7017, 2.0f); //set position mode speed
     }
-
-
     if (motor_enabled && msg->axes.size() > 1) {
         if (current_mode == 2) { // 速度模式
             float speed = msg->axes[1] * V_MAX; // 调整速度

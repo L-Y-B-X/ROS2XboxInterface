@@ -1,0 +1,27 @@
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:[m[K In member function ‘[01m[Kvoid JoyToCANNode::joy_callback(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:148:9:[m[K [01;31m[Kerror: [m[K‘[01m[KhandleButtonPress[m[K’ was not declared in this scope
+  148 |         [01;31m[KhandleButtonPress[m[K(msg->buttons);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:152:9:[m[K [01;31m[Kerror: [m[K‘[01m[KhandleAxesMovement[m[K’ was not declared in this scope
+  152 |         [01;31m[KhandleAxesMovement[m[K(msg->axes[1]);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:[m[K At global scope:
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:156:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid JoyToCANNode::handleButtonPress(const std::vector<int>&)[m[K’
+  156 | void [01;31m[KJoyToCANNode[m[K::handleButtonPress(const std::vector<int>& buttons) {
+      |      [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:156:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid JoyToCANNode::handleButtonPress(const std::vector<int>&)[m[K’
+In file included from [01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:1[m[K:
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/include/joy_to_can/joy_to_can_node.hpp:11:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass JoyToCANNode[m[K’ defined here
+   11 | class [01;36m[KJoyToCANNode[m[K : public rclcpp::Node {
+      |       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:182:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid JoyToCANNode::handleAxesMovement(float)[m[K’
+  182 | void [01;31m[KJoyToCANNode[m[K::handleAxesMovement(float axisValue) {
+      |      [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:182:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid JoyToCANNode::handleAxesMovement(float)[m[K’
+In file included from [01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/src/joy_to_can_node.cpp:1[m[K:
+[01m[K/home/lyb/Desktop/dev_ws/src/joy_to_can/include/joy_to_can/joy_to_can_node.hpp:11:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass JoyToCANNode[m[K’ defined here
+   11 | class [01;36m[KJoyToCANNode[m[K : public rclcpp::Node {
+      |       [01;36m[K^~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/joy_to_can_node.dir/build.make:63: CMakeFiles/joy_to_can_node.dir/src/joy_to_can_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/joy_to_can_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

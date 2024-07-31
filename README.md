@@ -1,6 +1,7 @@
 # 📦 ros2-mimotor-controller
 > 🚀 在ros2中调用ps和xbox手柄信息进行小米电机的控制
-
+![image](https://github.com/L-Y-B-X/ros2-mimotor-controller/blob/main/document/cybergear.png)
+![image](https://github.com/L-Y-B-X/ros2-mimotor-controller/blob/main/document/psjoy.png)
 ## 🌟 Features
 
 - 🎮 Integrate PS5 wireless and Xbox controllers for motor control
@@ -53,6 +54,7 @@ Make sure you have the following installed:
 
 ---
 ## 🚀 Usage
+### 特别注意，我的电机的canid设置为了127，允许的id最大值在代码中也就是0x7F，数据为写的0xFD，位置模式的速度限制写在L1按键上的，可以在代码中找到对应部分，没有写关于速度模式最大电流限制的can信号，也没有写初次获取canid的步骤。只适用于短暂验证电机使用
 1. **Run the joy node:**
 
     ```sh
